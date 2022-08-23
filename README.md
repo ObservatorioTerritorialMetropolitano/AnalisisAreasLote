@@ -1,5 +1,5 @@
 # Análisis de áreas de lote
-##Analisis de las áreas de lote de los Municipios del Área Metropolitana del Valle de Aburrá
+## Analisis de las áreas de lote de los Municipios del Área Metropolitana del Valle de Aburrá
 Los datos son obtenidos de los atributos de los objetos geográficos de la división por lotes de los municipios del Área Metropolitana del Valle de Aburrá en estos datos se encuentran los siguientes campos:
 ### OBJECTID: ID del objeto grafico
 ### Shape_Length: Perimetro del lote en metros
