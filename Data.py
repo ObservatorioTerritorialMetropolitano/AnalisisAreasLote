@@ -21,8 +21,8 @@ Separador = ' - '
 Suelo= 'Rural'
 
 Municipio_ = df[(df['Municipio'] == Municipio)]
-MunicipioUrbano = df[(df['Suelo'] == 'Urbano')]
-MunicipioRural = df[(df['Suelo'] == 'Rural')]
+MunicipioUrbano = Municipio_[(Municipio_['Suelo'] == 'Urbano')]
+MunicipioRural = Municipio_[(Municipio_['Suelo'] == 'Rural')]
 
 MunicipioAreaRural = MunicipioRural[['Shape_Area']].to_numpy()
 MunicipioAreaUrbana = MunicipioUrbano[['Shape_Area']].to_numpy()
@@ -50,8 +50,8 @@ Separador = ' - '
 Suelo= 'Rural'
 
 Municipio_ = df[(df['Municipio'] == Municipio)]
-MunicipioUrbano = df[(df['Suelo'] == 'Urbano')]
-MunicipioRural = df[(df['Suelo'] == 'Rural')]
+MunicipioUrbano = Municipio_[(Municipio_['Suelo'] == 'Urbano')]
+MunicipioRural = Municipio_[(Municipio_['Suelo'] == 'Rural')]
 
 MunicipioAreaRural = MunicipioRural[['Shape_Area']].to_numpy()
 MunicipioAreaUrbana = MunicipioUrbano[['Shape_Area']].to_numpy()
@@ -79,8 +79,8 @@ Separador = ' - '
 Suelo= 'Rural'
 
 Municipio_ = df[(df['Municipio'] == Municipio)]
-MunicipioUrbano = df[(df['Suelo'] == 'Urbano')]
-MunicipioRural = df[(df['Suelo'] == 'Rural')]
+MunicipioUrbano = Municipio_[(Municipio_['Suelo'] == 'Urbano')]
+MunicipioRural = Municipio_[(Municipio_['Suelo'] == 'Rural')]
 
 MunicipioAreaRural = MunicipioRural[['Shape_Area']].to_numpy()
 MunicipioAreaUrbana = MunicipioUrbano[['Shape_Area']].to_numpy()
@@ -108,8 +108,8 @@ Separador = ' - '
 Suelo= 'Rural'
 
 Municipio_ = df[(df['Municipio'] == Municipio)]
-MunicipioUrbano = df[(df['Suelo'] == 'Urbano')]
-MunicipioRural = df[(df['Suelo'] == 'Rural')]
+MunicipioUrbano = Municipio_[(Municipio_['Suelo'] == 'Urbano')]
+MunicipioRural = Municipio_[(Municipio_['Suelo'] == 'Rural')]
 
 MunicipioAreaRural = MunicipioRural[['Shape_Area']].to_numpy()
 MunicipioAreaUrbana = MunicipioUrbano[['Shape_Area']].to_numpy()
@@ -137,8 +137,8 @@ Separador = ' - '
 Suelo= 'Rural'
 
 Municipio_ = df[(df['Municipio'] == Municipio)]
-MunicipioUrbano = df[(df['Suelo'] == 'Urbano')]
-MunicipioRural = df[(df['Suelo'] == 'Rural')]
+MunicipioUrbano = Municipio_[(Municipio_['Suelo'] == 'Urbano')]
+MunicipioRural = Municipio_[(Municipio_['Suelo'] == 'Rural')]
 
 MunicipioAreaRural = MunicipioRural[['Shape_Area']].to_numpy()
 MunicipioAreaUrbana = MunicipioUrbano[['Shape_Area']].to_numpy()
@@ -166,8 +166,8 @@ Separador = ' - '
 Suelo= 'Rural'
 
 Municipio_ = df[(df['Municipio'] == Municipio)]
-MunicipioUrbano = df[(df['Suelo'] == 'Urbano')]
-MunicipioRural = df[(df['Suelo'] == 'Rural')]
+MunicipioUrbano = Municipio_[(Municipio_['Suelo'] == 'Urbano')]
+MunicipioRural = Municipio_[(Municipio_['Suelo'] == 'Rural')]
 
 MunicipioAreaRural = MunicipioRural[['Shape_Area']].to_numpy()
 MunicipioAreaUrbana = MunicipioUrbano[['Shape_Area']].to_numpy()
@@ -195,8 +195,8 @@ Separador = ' - '
 Suelo= 'Rural'
 
 Municipio_ = df[(df['Municipio'] == Municipio)]
-MunicipioUrbano = df[(df['Suelo'] == 'Urbano')]
-MunicipioRural = df[(df['Suelo'] == 'Rural')]
+MunicipioUrbano = Municipio_[(Municipio_['Suelo'] == 'Urbano')]
+MunicipioRural = Municipio_[(Municipio_['Suelo'] == 'Rural')]
 
 MunicipioAreaRural = MunicipioRural[['Shape_Area']].to_numpy()
 MunicipioAreaUrbana = MunicipioUrbano[['Shape_Area']].to_numpy()
@@ -224,8 +224,8 @@ Separador = ' - '
 Suelo= 'Rural'
 
 Municipio_ = df[(df['Municipio'] == Municipio)]
-MunicipioUrbano = df[(df['Suelo'] == 'Urbano')]
-MunicipioRural = df[(df['Suelo'] == 'Rural')]
+MunicipioUrbano = Municipio_[(Municipio_['Suelo'] == 'Urbano')]
+MunicipioRural = Municipio_[(Municipio_['Suelo'] == 'Rural')]
 
 MunicipioAreaRural = MunicipioRural[['Shape_Area']].to_numpy()
 MunicipioAreaUrbana = MunicipioUrbano[['Shape_Area']].to_numpy()
@@ -248,13 +248,13 @@ ax2.boxplot(MunicipioAreaUrbana, showfliers=False)
 #--------------------- /La Estrella -------------------------------------------
 # Medellín
 #--------------------- Medellín -----------------------------------------------
-Municipio = 'Medellín'
+Municipio = 'Medellin'
 Separador = ' - '
 Suelo= 'Rural'
 
 Municipio_ = df[(df['Municipio'] == Municipio)]
-MunicipioUrbano = df[(df['Suelo'] == 'Urbano')]
-MunicipioRural = df[(df['Suelo'] == 'Rural')]
+MunicipioUrbano = Municipio_[(Municipio_['Suelo'] == 'Urbano')]
+MunicipioRural = Municipio_[(Municipio_['Suelo'] == 'Rural')]
 
 MunicipioAreaRural = MunicipioRural[['Shape_Area']].to_numpy()
 MunicipioAreaUrbana = MunicipioUrbano[['Shape_Area']].to_numpy()
@@ -282,8 +282,8 @@ Separador = ' - '
 Suelo= 'Rural'
 
 Municipio_ = df[(df['Municipio'] == Municipio)]
-MunicipioUrbano = df[(df['Suelo'] == 'Urbano')]
-MunicipioRural = df[(df['Suelo'] == 'Rural')]
+MunicipioUrbano = Municipio_[(Municipio_['Suelo'] == 'Urbano')]
+MunicipioRural = Municipio_[(Municipio_['Suelo'] == 'Rural')]
 
 MunicipioAreaRural = MunicipioRural[['Shape_Area']].to_numpy()
 MunicipioAreaUrbana = MunicipioUrbano[['Shape_Area']].to_numpy()
